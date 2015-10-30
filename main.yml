@@ -1,6 +1,5 @@
 ---
 - hosts: devmachines
   become: true
-  remote_user: "{{ username }}"
   roles:
     - atom
