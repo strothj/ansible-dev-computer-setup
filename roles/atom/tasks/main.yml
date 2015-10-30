@@ -1,8 +1,0 @@
----
-- name: Download atom
-  get_url: url={{ atom_url }} dest={{ atom_tmp }}
-  tags: ["packages","atom"]
-
-- name: Install atom
-  apt: deb={{ atom_tmp }}
-  tags: ["packages","atom"]
